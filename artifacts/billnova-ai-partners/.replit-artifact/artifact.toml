@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "BillNova AI Partners"
+description = "A premium corporate website for BillNova AI Partners Limited, helping organizations adopt, govern and scale AI responsibly through advisory, transformation, automation and capability development."
+version = "1.0.0"
+id = "artifacts/billnova-ai-partners"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20031
+
+[services.development]
+run = "pnpm --filter @workspace/billnova-ai-partners run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/billnova-ai-partners", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/billnova-ai-partners/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20031"
+BASE_PATH = "/"

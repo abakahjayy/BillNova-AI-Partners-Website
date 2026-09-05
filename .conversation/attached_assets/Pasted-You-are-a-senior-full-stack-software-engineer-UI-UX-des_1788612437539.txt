@@ -1,0 +1,1190 @@
+You are a senior full-stack software engineer, UI/UX designer, and B2B corporate website specialist.
+
+I want you to build a highly professional, modern, responsive corporate website for my company:
+
+==================================================
+COMPANY INFORMATION
+==================================================
+
+Company Name:
+BillNova AI Partners Limited
+
+Tagline:
+"Your Partner in Responsible AI Adoption."
+
+Business Phone:
+0243583573
+
+Founder / Principal Contact:
+William Abakah
+
+William Abakah is currently an HR professional at Hollard Insurance Bank.
+
+Important:
+Do NOT over-emphasize William's current employment. Present him professionally as the founder/principal contact of BillNova AI Partners. The website should primarily communicate the company's capabilities and credibility.
+
+==================================================
+BRAND
+==================================================
+
+I have provided the official BillNova AI Partners logo.
+
+Use the uploaded logo as the primary visual reference.
+
+The logo consists primarily of:
+- Dark navy blue
+- Bright/cyan blue
+- White
+- "BILLNOVA"
+- "AI PARTNERS"
+- A distinctive BN-style brand mark with a futuristic/star element
+
+The website's visual identity should be based on the logo.
+
+Suggested brand palette:
+
+Primary Navy:
+#071B3A
+
+Secondary Navy:
+#0D2A52
+
+Primary Blue:
+#1267C9
+
+Cyan Accent:
+#00A9E8
+
+Light Background:
+#F7F9FC
+
+White:
+#FFFFFF
+
+Text:
+#162033
+
+Muted Text:
+#64748B
+
+Use these colors consistently, but prioritize the actual uploaded logo when determining visual styling.
+
+Do NOT redesign the logo.
+
+==================================================
+TECHNOLOGY REQUIREMENTS
+==================================================
+
+Frontend:
+- React
+- Vite
+- JavaScript or TypeScript
+- Chakra UI
+
+Use Chakra UI for the entire interface and styling.
+
+Do NOT use Bootstrap.
+
+Do NOT use Tailwind unless absolutely necessary. Chakra UI should be the primary styling system.
+
+Backend:
+- Node.js
+- Express
+- MongoDB
+
+IMPORTANT:
+The backend already exists.
+
+Do NOT recreate the backend.
+
+Instead:
+- Build the frontend with a clean API service layer.
+- Create a centralized API configuration.
+- Use environment variables for the backend URL.
+- Make it easy to connect the frontend to my existing Express API.
+- Do not hardcode API URLs throughout the application.
+
+Example:
+
+VITE_API_BASE_URL=http://localhost:5000/api
+
+Create a reusable API layer such as:
+
+src/
+  services/
+    api.js
+
+or, if using TypeScript:
+
+src/
+  services/
+    api.ts
+
+==================================================
+MAIN OBJECTIVE
+==================================================
+
+Build a premium corporate website for an AI advisory and business transformation company.
+
+The website should communicate:
+
+- Trust
+- Professionalism
+- Responsible AI
+- Business transformation
+- Corporate credibility
+- Information protection
+- Governance
+- Automation
+- AI education
+- Strategic consulting
+
+The design should feel appropriate for:
+
+- Banks
+- Insurance companies
+- Healthcare organizations
+- Government institutions
+- Large enterprises
+- SMEs
+- Corporate executives
+- Boards
+- HR departments
+- Compliance teams
+- IT departments
+
+Avoid making the website look like a generic "AI generated website".
+
+It should feel like a real professional consulting company.
+
+==================================================
+DESIGN DIRECTION
+==================================================
+
+Create a sophisticated B2B corporate aesthetic.
+
+Use:
+
+- Strong typography
+- Generous whitespace
+- Clean grids
+- Professional cards
+- Subtle gradients
+- Elegant animations
+- Blue/cyan technology accents
+- Dark navy sections
+- White content sections
+- Abstract AI/network visual elements
+- Subtle geometric patterns
+
+Do NOT overuse:
+- Neon effects
+- Excessive glassmorphism
+- Huge glowing AI brains
+- Random stock images of robots
+- Excessive animations
+- Distracting particle effects
+
+The website should communicate "responsible enterprise AI", not "gaming technology".
+
+==================================================
+RESPONSIVENESS
+==================================================
+
+The website MUST be fully responsive.
+
+Optimize for:
+
+1. Desktop
+2. Laptop
+3. Tablet
+4. Mobile
+
+Mobile navigation must become a professional hamburger/drawer menu.
+
+Cards should stack appropriately on mobile.
+
+Typography must scale responsively.
+
+Buttons must remain easy to tap.
+
+No horizontal scrolling.
+
+Images and logo must never overflow.
+
+Test layouts around:
+
+- 320px
+- 375px
+- 425px
+- 768px
+- 1024px
+- 1440px
+- 1920px
+
+==================================================
+SITE STRUCTURE
+==================================================
+
+Create the following pages:
+
+1. Home
+2. About
+3. Services
+4. AI Governance & Responsible AI
+5. Information Protection & AI Risk
+6. AI Audit & Business Transformation
+7. AI-Powered Business Automation
+8. AI Training & Capability Development
+9. Our Approach
+10. Contact
+
+You may implement service pages using a reusable dynamic service-page component rather than duplicating code.
+
+==================================================
+NAVIGATION
+==================================================
+
+Create a professional sticky navbar.
+
+Navbar:
+
+Logo
+Home
+About
+Services
+Our Approach
+Contact
+
+Services should have a dropdown/menu containing:
+
+- AI Governance & Responsible AI
+- Information Protection & AI Risk
+- AI Audit & Business Transformation
+- AI-Powered Business Automation
+- AI Training & Capability Development
+
+Primary CTA:
+
+"Book a Consultation"
+
+On mobile:
+Use Chakra UI Drawer/Menu.
+
+Navbar should:
+- Have a transparent/white appearance depending on the hero
+- Transition elegantly when scrolling
+- Remain accessible
+- Have a subtle shadow after scrolling
+
+==================================================
+HOME PAGE
+==================================================
+
+Create a premium hero section.
+
+Hero headline:
+
+"Your Partner in Responsible AI Adoption."
+
+Supporting headline:
+
+"Helping organizations understand, govern, transform and scale AI for meaningful business impact."
+
+Body:
+
+"BillNova AI Partners helps organizations navigate the opportunities and challenges of artificial intelligence through practical AI advisory, governance, information protection, automation and capability development."
+
+Primary CTA:
+
+"Book a Consultation"
+
+Secondary CTA:
+
+"Explore Our Services"
+
+Hero visual:
+
+Create a sophisticated abstract AI/business transformation visual using CSS/Chakra components or an appropriate lightweight visual.
+
+Possible visual concept:
+
+A central AI/business transformation node connected to four concepts:
+
+UNDERSTAND
+GOVERN
+TRANSFORM
+EMPOWER
+
+Use subtle blue/cyan lines and nodes.
+
+Do not use an unrealistic humanoid robot.
+
+==================================================
+TRUST / VALUE SECTION
+==================================================
+
+Immediately below the hero, add a credibility/value section.
+
+Headline:
+
+"AI That Creates Real Business Value"
+
+Text:
+
+"AI should do more than generate excitement. It should improve the way organizations work, make better decisions, protect information and create measurable business value."
+
+Create four value cards:
+
+1. Responsible
+AI adoption built around ethics, risk, privacy and security.
+
+2. Practical
+Solutions aligned with real business objectives.
+
+3. Measurable
+Focus on productivity, efficiency, quality and business outcomes.
+
+4. Sustainable
+Building organizational capability that lasts beyond the engagement.
+
+==================================================
+ABOUT SECTION
+==================================================
+
+Create a professional About section.
+
+Use this content:
+
+"BillNova AI Partners Limited is an AI advisory and transformation firm that helps organizations move from curiosity to confident, measurable adoption of AI."
+
+Continue:
+
+"We work alongside boards, executives and operational teams to identify where AI can create the greatest value, put the right governance and safeguards in place, automate the workflows that matter most, and build the internal capability needed to sustain change."
+
+Explain:
+
+"Our approach combines business understanding, technology, governance and people development."
+
+Add CTA:
+
+"Learn More About Us"
+
+==================================================
+MISSION
+==================================================
+
+Display prominently:
+
+OUR MISSION
+
+"To assist organizations adopt Artificial Intelligence safely, govern it responsibly and scale it for meaningful business impact, enabling productivity, innovation and long-term competitive advantage."
+
+==================================================
+VISION
+==================================================
+
+OUR VISION
+
+"To be the trusted partner of choice for organizations that want to harness the power of AI without compromising trust, ethics or the integrity of their information."
+
+==================================================
+CORE VALUES
+==================================================
+
+Create six visually attractive cards.
+
+1. Responsible Innovation
+
+"We believe innovation must go hand in hand with responsibility. We promote AI adoption that considers ethics, risk, privacy, security and its impact on people."
+
+2. Business Value
+
+"Technology is only valuable when it solves a real problem. We focus on practical AI solutions that improve productivity, efficiency, decision-making, customer experience and business performance."
+
+3. Trust & Integrity
+
+"Trust is fundamental to AI adoption. We operate with transparency, confidentiality and integrity and encourage responsible handling of information and data."
+
+4. People First
+
+"AI should empower people, not simply replace processes. We invest in helping leaders and employees develop the confidence and capabilities required to thrive in an AI-enabled workplace."
+
+5. Continuous Learning
+
+"AI is evolving rapidly. We remain curious, adaptable and committed to continuous learning so that our clients can stay ahead of change."
+
+6. Partnership
+
+"We work alongside our clients rather than simply working for them. We listen, understand their context and build solutions that can be adopted and sustained."
+
+Use icons that match each value.
+
+==================================================
+SERVICES
+==================================================
+
+Create a premium services overview.
+
+Heading:
+
+"Our Services"
+
+Subheading:
+
+"Practical AI advisory and transformation services designed around your organization's goals, risks and opportunities."
+
+Create five main service cards.
+
+--------------------------------------------------
+SERVICE 1
+--------------------------------------------------
+
+Title:
+
+AI Governance & Responsible AI
+
+Short description:
+
+"Helping organizations adopt AI with confidence."
+
+Description:
+
+"We help organizations establish the policies, frameworks and controls required to use AI safely and responsibly."
+
+Services:
+
+- AI Governance Frameworks
+- Responsible AI Policies and Guidelines
+- AI Risk Assessment
+- AI Use-Case Governance
+- AI Ethics and Responsible Use
+- Employee AI Usage Guidelines
+- AI Risk & Control Frameworks
+- AI Governance Training
+
+CTA:
+
+"Explore AI Governance"
+
+--------------------------------------------------
+SERVICE 2
+--------------------------------------------------
+
+Title:
+
+Information Protection & AI Risk
+
+Short description:
+
+"Protecting information in an increasingly AI-enabled workplace."
+
+Description:
+
+"The rapid adoption of AI creates new questions around confidential information, personal data, intellectual property and cybersecurity. We help organizations identify and manage these risks."
+
+Services:
+
+- AI-related Information Risk Assessment
+- Data Protection & Privacy Advisory
+- AI Information Handling Guidelines
+- Confidentiality & Data Leakage Risk Assessment
+- AI Security Awareness
+- Information Protection Frameworks
+- AI Vendor and Tool Risk Assessment
+
+CTA:
+
+"Explore Information Protection"
+
+--------------------------------------------------
+SERVICE 3
+--------------------------------------------------
+
+Title:
+
+AI Audit & Business Transformation
+
+Short description:
+
+"Finding where AI can create the greatest value."
+
+Description:
+
+"Before investing in AI, organizations need to understand where the opportunities actually exist. Our AI Audit examines business processes, workflows and operational challenges to identify practical opportunities for AI and automation."
+
+Assess:
+
+- Business workflows
+- Repetitive and manual processes
+- Productivity bottlenecks
+- Data and information flows
+- Customer-facing processes
+- Decision-making processes
+- Existing technology environment
+
+Include a visual:
+
+AI Opportunity Roadmap
+
+Show stages:
+
+Assess → Identify → Prioritize → Implement → Measure
+
+CTA:
+
+"Explore AI Audit"
+
+--------------------------------------------------
+SERVICE 4
+--------------------------------------------------
+
+Title:
+
+AI-Powered Business Automation
+
+Short description:
+
+"Turning repetitive work into intelligent workflows."
+
+Description:
+
+"We help organizations redesign and automate business processes using AI and emerging technologies."
+
+Solutions:
+
+- Document and information processing
+- Report generation
+- Customer service workflows
+- Email and communication automation
+- Data processing
+- Knowledge management
+- Administrative workflows
+- Approval processes
+- Business intelligence and reporting
+- AI-powered productivity solutions
+
+Highlight:
+
+"Measurable improvements in time, cost, quality and employee productivity."
+
+CTA:
+
+"Explore Automation"
+
+--------------------------------------------------
+SERVICE 5
+--------------------------------------------------
+
+Title:
+
+AI Training & Capability Development
+
+Short description:
+
+"Building people who are ready for the AI-powered workplace."
+
+Description:
+
+"Technology adoption succeeds when people understand how to use it effectively and responsibly."
+
+Programs:
+
+- AI for Executives and Managers
+- Generative AI for the Workplace
+- AI Productivity Skills
+- Prompt Engineering
+- Responsible AI
+- AI Literacy
+- AI-Powered Microsoft 365 Productivity
+- AI for Business Functions
+- AI Change & Adoption
+- Customized Corporate AI Programmes
+
+CTA:
+
+"Explore AI Training"
+
+==================================================
+OUR APPROACH
+==================================================
+
+Create a dedicated visual process section.
+
+Heading:
+
+"Understand. Govern. Transform. Empower."
+
+Subheading:
+
+"Our approach brings together business understanding, governance, transformation and people development."
+
+Create a four-step timeline/process.
+
+01 — UNDERSTAND
+
+"We first understand your business, challenges, workflows and objectives."
+
+02 — GOVERN
+
+"We establish the policies, controls and safeguards necessary for responsible AI adoption."
+
+03 — TRANSFORM
+
+"We identify and implement AI and automation opportunities that improve the way your organization works."
+
+04 — EMPOWER
+
+"We equip your people with the knowledge and skills to confidently use AI and sustain the transformation."
+
+Make this section visually impressive.
+
+Use a connected timeline or circular process diagram.
+
+==================================================
+WHO WE SERVE
+==================================================
+
+Create a section:
+
+"AI Adoption Built Around Your Organization"
+
+Include industries such as:
+
+- Banking & Financial Services
+- Insurance
+- Healthcare
+- Government & Public Sector
+- Professional Services
+- SMEs & Growing Enterprises
+- Corporate Organizations
+
+Each should have an icon and short description.
+
+Example:
+
+BANKING & FINANCIAL SERVICES
+
+"Navigate AI adoption while protecting sensitive customer information and managing regulatory and operational risk."
+
+==================================================
+WHY BILLNOVA
+==================================================
+
+Create a section titled:
+
+"Why Organizations Choose BillNova"
+
+Use six reasons:
+
+1. Business-first AI strategy
+2. Responsible AI adoption
+3. Information protection
+4. Practical automation
+5. People and capability development
+6. Long-term partnership
+
+Make the section visually sophisticated.
+
+==================================================
+CALL TO ACTION
+==================================================
+
+Create a strong dark navy CTA section.
+
+Headline:
+
+"Ready to Move From AI Curiosity to AI Capability?"
+
+Text:
+
+"Let's identify where AI can create meaningful value for your organization while keeping trust, governance and people at the center."
+
+Buttons:
+
+"Book a Consultation"
+
+"Call 0243583573"
+
+==================================================
+CONTACT PAGE
+==================================================
+
+Create a professional contact page.
+
+Headline:
+
+"Let's Talk About Your AI Journey"
+
+Description:
+
+"Whether you are exploring AI for the first time or looking to scale existing initiatives, BillNova AI Partners can help you identify practical opportunities and build a responsible path forward."
+
+Contact information:
+
+BillNova AI Partners Limited
+
+Phone:
+0243583573
+
+Principal Contact:
+William Abakah
+
+Create a contact form:
+
+Full Name
+Company
+Email
+Phone
+Job Title
+Service Interested In
+Message
+
+Submit button:
+
+"Send Enquiry"
+
+The form should be ready to connect to the existing Express backend.
+
+Create:
+
+POST /contact
+
+or configure the frontend so the endpoint can easily be changed.
+
+Handle:
+- Loading state
+- Success state
+- Validation errors
+- Server errors
+- Empty fields
+- Invalid email
+
+Never expose sensitive backend configuration in frontend code.
+
+==================================================
+FOOTER
+==================================================
+
+Create a professional footer.
+
+Include:
+
+BillNova AI Partners Limited
+
+"Your Partner in Responsible AI Adoption."
+
+Navigation:
+
+Home
+About
+Services
+Our Approach
+Contact
+
+Services:
+
+AI Governance
+Information Protection
+AI Audit
+Business Automation
+AI Training
+
+Contact:
+
+0243583573
+William Abakah
+
+Add:
+
+© 2026 BillNova AI Partners Limited. All Rights Reserved.
+
+Include social media placeholders only if appropriate.
+
+Do not invent social media accounts.
+
+==================================================
+COMPONENT ARCHITECTURE
+==================================================
+
+Use reusable React components.
+
+Suggested structure:
+
+src/
+│
+├── assets/
+│   └── billnova-logo.png
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   ├── SectionHeading.jsx
+│   ├── ServiceCard.jsx
+│   ├── ValueCard.jsx
+│   ├── CoreValueCard.jsx
+│   ├── ProcessStep.jsx
+│   ├── IndustryCard.jsx
+│   ├── CTASection.jsx
+│   └── ContactForm.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Services.jsx
+│   ├── ServiceDetail.jsx
+│   ├── Approach.jsx
+│   └── Contact.jsx
+│
+├── services/
+│   └── api.js
+│
+├── data/
+│   ├── services.js
+│   ├── values.js
+│   └── industries.js
+│
+├── theme/
+│   └── theme.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+
+Keep business content separate from presentation components wherever practical.
+
+==================================================
+CHAKRA UI THEME
+==================================================
+
+Create a custom Chakra UI theme.
+
+Define:
+
+colors:
+brand.navy
+brand.blue
+brand.cyan
+brand.light
+brand.text
+brand.muted
+
+fonts:
+Use a modern professional sans-serif font.
+
+Recommended:
+
+Inter
+
+or another clean corporate font.
+
+Define consistent:
+
+- Heading sizes
+- Body sizes
+- Button styles
+- Card styles
+- Border radius
+- Shadows
+- Container widths
+- Responsive breakpoints
+
+Buttons should have professional hover states.
+
+==================================================
+ANIMATIONS
+==================================================
+
+Use subtle professional animations.
+
+Examples:
+
+- Fade-in sections
+- Slight upward reveal
+- Card hover elevation
+- Button hover
+- Navbar transition
+- Smooth scrolling
+
+Animations should be subtle.
+
+Do not make every element bounce or move.
+
+If using an animation library, keep it lightweight and justify the dependency.
+
+==================================================
+ACCESSIBILITY
+==================================================
+
+Follow accessibility best practices.
+
+Include:
+
+- Semantic HTML
+- Proper heading hierarchy
+- Alt text for logo/images
+- Keyboard navigation
+- Accessible mobile menu
+- Good color contrast
+- Visible focus states
+- Accessible form labels
+- ARIA attributes where necessary
+
+==================================================
+SEO
+==================================================
+
+Add appropriate metadata.
+
+Title:
+
+BillNova AI Partners Limited | Responsible AI Advisory & Business Transformation
+
+Description:
+
+"BillNova AI Partners helps organizations adopt AI responsibly through AI governance, information protection, business transformation, automation and AI capability development."
+
+Add appropriate:
+
+- Meta description
+- Open Graph metadata
+- Favicon
+- Semantic headings
+
+Use meaningful URLs such as:
+
+/
+/about
+/services
+/services/ai-governance
+/services/information-protection
+/services/ai-audit
+/services/business-automation
+/services/ai-training
+/approach
+/contact
+
+==================================================
+PERFORMANCE
+==================================================
+
+Optimize for performance.
+
+Avoid unnecessarily large dependencies.
+
+Lazy-load images where appropriate.
+
+Avoid huge background videos.
+
+Optimize logo/image assets.
+
+Use React best practices.
+
+Avoid unnecessary re-renders.
+
+==================================================
+BACKEND INTEGRATION
+==================================================
+
+The backend already exists using:
+
+Node.js
+Express
+MongoDB
+
+Do not build another backend.
+
+Create a frontend API abstraction.
+
+Example:
+
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || "http://localhost:5000/api";
+
+All backend requests should go through the API service.
+
+For the contact form:
+
+contactService.submit(data)
+
+rather than directly calling fetch from the component.
+
+Make the endpoint configurable.
+
+==================================================
+ERROR HANDLING
+==================================================
+
+Implement professional UI states:
+
+Loading
+Success
+Error
+Empty
+Validation
+
+Example contact form success:
+
+"Thank you for contacting BillNova AI Partners. Your enquiry has been received. We will get back to you shortly."
+
+Error:
+
+"We couldn't submit your enquiry right now. Please try again or call 0243583573."
+
+==================================================
+IMPORTANT SECURITY REQUIREMENTS
+==================================================
+
+Never put:
+
+- MongoDB credentials
+- API secrets
+- JWT secrets
+- Private keys
+- Backend credentials
+
+in the React frontend.
+
+Use:
+
+.env
+
+for frontend configuration.
+
+Only variables intended for the frontend should use:
+
+VITE_
+
+==================================================
+IMPORTANT CONTENT RULES
+==================================================
+
+Use the company information provided in this prompt.
+
+Do not invent:
+
+- Clients
+- Client logos
+- Awards
+- Certifications
+- Revenue
+- Number of employees
+- Years in business
+- Partnerships
+- Testimonials
+- Government contracts
+- Banking contracts
+- AI certifications
+
+If a section would normally require information we do not have, either omit it or create a clearly marked placeholder that can easily be replaced later.
+
+Do not make false claims.
+
+==================================================
+PROFESSIONALITY
+==================================================
+
+The website should look like something a corporate executive could confidently visit before engaging BillNova AI Partners.
+
+Think:
+
+McKinsey-style clarity
++
+Modern AI consultancy
++
+Enterprise technology
++
+Responsible AI
++
+African business context
+
+But do NOT copy another company's website.
+
+The design must be original.
+
+==================================================
+AFRICAN / GHANA CONTEXT
+==================================================
+
+BillNova AI Partners operates in Ghana.
+
+The website should subtly reflect its Ghanaian business context without making the design look overly localized.
+
+Do NOT use stereotypical African imagery.
+
+Instead, communicate professionalism suitable for Ghanaian and international organizations.
+
+Potential target organizations include:
+
+- Banks
+- Insurance companies
+- Healthcare organizations
+- Government institutions
+- Corporate organizations
+- SMEs
+
+==================================================
+FINAL IMPLEMENTATION REQUIREMENTS
+==================================================
+
+Before finishing:
+
+1. Initialize the React + Vite project if necessary.
+2. Install Chakra UI and required dependencies.
+3. Build the complete frontend.
+4. Configure routing.
+5. Create reusable components.
+6. Create the custom Chakra theme.
+7. Add the BillNova logo.
+8. Build all pages.
+9. Make the website fully responsive.
+10. Add accessibility.
+11. Add SEO metadata.
+12. Add professional animations.
+13. Add contact form validation.
+14. Create the API service layer.
+15. Configure .env.example.
+16. Make sure the project runs with:
+
+npm install
+npm run dev
+
+17. Check for:
+   - Console errors
+   - Broken imports
+   - Broken routes
+   - Mobile layout problems
+   - Overflow
+   - Missing images
+   - Accessibility problems
+
+==================================================
+IMPORTANT DEVELOPMENT BEHAVIOR
+==================================================
+
+Do not simply generate a single huge App.jsx file.
+
+Use a clean architecture.
+
+Do not duplicate components unnecessarily.
+
+Do not hardcode the same service information in multiple places.
+
+Keep service data in a centralized data file and render reusable service components.
+
+Keep the UI polished.
+
+If something is ambiguous, make a professional design decision rather than stopping.
+
+At the end, provide:
+
+1. Project structure
+2. Dependencies installed
+3. How to run the frontend
+4. Environment variables required
+5. Backend API endpoints expected
+6. Any assumptions made
+7. Any areas where I need to provide additional backend information
+
+The final result should feel like a premium, trustworthy, enterprise-grade AI consulting website for BillNova AI Partners Limited.
